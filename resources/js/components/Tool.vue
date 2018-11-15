@@ -1,7 +1,7 @@
 <template>
     <div>
-        <h4 ref="nova-category" class="ml-6 leading-wide font-bold text-white-50% mb-2 text-sm capitalize cursor-pointer hover:text-white" @click.prevent="toggle">
-            {{ header }}
+        <h4 ref="nova-category" class="ml-6 leading-wide font-bold text-white-80% mb-4 text-md capitalize cursor-pointer hover:text-white" @click.prevent="toggle">
+            <span v-html="header"></span>
             <template v-if="expanded">&minus;</template>
             <template v-else>&plus;</template>
         </h4>
