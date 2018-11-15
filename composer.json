@@ -1,5 +1,5 @@
 {
-    "name": "alexbowers/nova-categorise-resources",
+    "name": "carloscgo/nova-categorise-resources",
     "description": "Group and categorise your nova resources",
     "keywords": [
         "laravel",
@@ -9,8 +9,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Alex Bowers",
-            "email": "bowersbros@gmail.com",
+            "name": "Carlos Camacho",
+            "email": "carloscgo123@gmail.com",
             "role": "Developer"
         }
     ],
@@ -19,13 +19,13 @@
     },
     "autoload": {
         "psr-4": {
-            "AlexBowers\\NovaCategoriseResources\\": "src/"
+            "CarlosCGO\\NovaCategoriseResources\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "AlexBowers\\NovaCategoriseResources\\ToolServiceProvider"
+                "CarlosCGO\\NovaCategoriseResources\\ToolServiceProvider"
             ]
         }
     },
