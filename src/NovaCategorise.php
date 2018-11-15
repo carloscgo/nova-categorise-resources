@@ -1,6 +1,6 @@
 <?php
 
-namespace AlexBowers\NovaCategoriseResources;
+namespace CarlosCGO\NovaCategoriseResources;
 
 use Laravel\Nova\Nova;
 use Illuminate\Http\Request;
