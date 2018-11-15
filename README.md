@@ -42,7 +42,7 @@ if there is only one category, and it is empty, then it will act as Nova does by
 You can install the package in to a Laravel app that uses [Nova](https://nova.laravel.com) via composer:
 
 ```bash
-composer require alexbowers/nova-categorise-resources
+composer require carloscgo/nova-categorise-resources
 ```
 
 ## Usage
